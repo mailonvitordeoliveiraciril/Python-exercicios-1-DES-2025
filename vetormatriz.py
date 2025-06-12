@@ -16,4 +16,4 @@ for i, aluno in enumerate(alunos):
 print("/nTABELA DE RESERVAS:")
 print(F"{'ALUNO':<10}") { ' '.join([f'' {dia:<10}' for dia in dias])}")
 for i, aluno in enumerate(alunos):
-    print(f"{aluno:<10}")
+    print(f"{aluno:<10} {' '.join([f'{reservar:<10}'for reserva in reservas[i]])}")
